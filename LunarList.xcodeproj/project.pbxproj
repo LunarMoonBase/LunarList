@@ -17,6 +17,7 @@
 		02F8C3EE25EFF83500BDAB62 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8C3ED25EFF83500BDAB62 /* ListViewModel.swift */; };
 		02F8C3FE25F08D6500BDAB62 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8C3FD25F08D6500BDAB62 /* NoItemsView.swift */; };
 		02F8C40225F19FBE00BDAB62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F8C40125F19FBE00BDAB62 /* LaunchScreen.storyboard */; };
+		0EFDF19329F9C9C7006DB163 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EFDF19229F9C9C7006DB163 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +25,6 @@
 		022EF16625EEE90900112224 /* LunarListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarListApp.swift; sourceTree = "<group>"; };
 		022EF16A25EEE90C00112224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		022EF16D25EEE90C00112224 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		022EF16F25EEE90C00112224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../LunarList_Alpha3/Info.plist; sourceTree = "<group>"; };
 		022EF17725EEEA1D00112224 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		022EF17C25EEEC0000112224 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		022EF17F25EEEDF000112224 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
@@ -32,6 +32,7 @@
 		02F8C3ED25EFF83500BDAB62 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		02F8C3FD25F08D6500BDAB62 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 		02F8C40125F19FBE00BDAB62 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EFDF19229F9C9C7006DB163 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +70,7 @@
 				02F8C3EC25EFF80400BDAB62 /* ViewModels */,
 				022EF17625EEEA0500112224 /* Views */,
 				022EF16A25EEE90C00112224 /* Assets.xcassets */,
-				022EF16F25EEE90C00112224 /* Info.plist */,
+				0EFDF19229F9C9C7006DB163 /* Info.plist */,
 				022EF16C25EEE90C00112224 /* Preview Content */,
 			);
 			path = LunarList;
@@ -168,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EFDF19329F9C9C7006DB163 /* Info.plist in Resources */,
 				02F8C40225F19FBE00BDAB62 /* LaunchScreen.storyboard in Resources */,
 				022EF16E25EEE90C00112224 /* Preview Assets.xcassets in Resources */,
 				022EF16B25EEE90C00112224 /* Assets.xcassets in Resources */,
@@ -315,12 +317,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TodoList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LunarList/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TodoList/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = LunarList/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,12 +341,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TodoList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LunarList/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TodoList/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = LunarList/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
